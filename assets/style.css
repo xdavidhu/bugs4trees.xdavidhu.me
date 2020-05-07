@@ -1,0 +1,182 @@
+/* Layout */
+
+body {
+  background: #222;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 20px;
+  color: #fff;
+}
+
+.foreground {
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.background {
+  height:100%;
+  width:100%;
+}
+
+/* Content */
+
+h1 {
+  font-size: 7vw;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 2vw;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2vw;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 30;
+  font-weight: bold;
+}
+
+.logo {
+  margin-top: 5%;
+}
+
+.logo img {
+  height: 9vw;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 1%
+}
+
+.footer {
+  padding-bottom: 1%;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+a {
+  color: #fff;
+}
+
+.forest_button {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.forest_button a {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.back_to {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 1300px) {
+  h1 {
+    font-size: 9vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  .logo {
+    margin-top: 10%;
+  }
+
+  .logo img {
+    height: 11vw;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .footer {
+    padding-bottom: 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 12vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  h3 {
+    font-size: 5vw;
+  }
+
+  h4 {
+    font-size: 20;
+  }
+
+  p {
+    font-size: 15;
+    text-align: justify;
+  }
+
+  li {
+    font-size: 15;
+  }
+
+  .logo {
+    margin-top: 10%;
+  }
+
+  .logo img {
+    height: 16vw;
+  }
+
+  .content {
+    width: 80%;
+  }
+
+  .footer {
+    font-size: 15;
+    padding-bottom: 3%;
+  }
+
+  .forest_button a {
+    font-size: 15;
+  }
+}
